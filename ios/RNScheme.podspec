@@ -6,12 +6,11 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNScheme
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/xuyazhong/react-native-scheme"
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "author" => "author@domain.cn" }
+  s.author             = { "xuyazhong" => "xuyazhong@foxmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNScheme.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/xuyazhong/react-native-scheme.git", :tag => "main" }
   s.source_files  = "RNScheme/**/*.{h,m}"
   s.requires_arc = true
 
