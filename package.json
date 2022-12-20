@@ -1,8 +1,8 @@
 
 {
   "name": "react-native-scheme",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "scheme",
   "homepage": "https://github.com/xuyazhong/react-native-scheme",
   "main": "index.js",
   "scripts": {
