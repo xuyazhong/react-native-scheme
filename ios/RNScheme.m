@@ -14,15 +14,12 @@
 }
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(open:(NSString *)url (RCTResponseSenderBlock)callback) {
-  if ([[UIApplication sharedApplication] canOpenURL:url]) {
-    msg = @"succ";
-    [[UIApplication sharedApplication] openURL:schemes
-                                       options:[NSDictionary dictionary]
+RCT_EXPORT_METHOD(open:(NSString *)url) {
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]
+                                       options:@{}
                              completionHandler:^(BOOL success) {
     }];
-  }
-  callback(@[[NSNull null], @"succ"]);
 }
 
 @end

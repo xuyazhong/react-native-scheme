@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "react-native-scheme"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "eact-native-scheme"
   s.description  = <<-DESC
                   RNScheme
